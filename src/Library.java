@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Library {
 
     ArrayList<Book> books = new ArrayList<>();
+    ArrayList<Member> members = new ArrayList<>();
 
     // Feature 1: Add a book
     void addBook(Book book){
@@ -46,6 +47,22 @@ public class Library {
             }
         }
         System.out.println("No book found with id: " + id);
+    }
+
+    // Feature 5: Add a member
+    void addMember(Member member){
+        members.add(member);
+        System.out.println("Member added: " + member.name);
+    }
+    // Feature 6: Display all members
+    void displayMembers(){
+        if(members.isEmpty()){
+            System.out.println("No members yet.");
+            return;
+        }
+        for(Member m : members){
+            m.display();
+        }
     }
     
 }

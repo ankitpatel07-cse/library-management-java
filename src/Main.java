@@ -19,5 +19,13 @@ public class Main {
         System.out.println("---Delete id 2---");
         library.deleteBook(2);
         library.displayAll();
+
+        // Feature 5: Add members
+        library.addMember(new Member(101, "Amit"));
+        library.addMember(new Member(102, "Rahul"));
+        
+        // Feature 6: Display all members
+        System.out.println("---All members---");
+        library.displayMembers();
     }      
 }
