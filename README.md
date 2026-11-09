@@ -4,10 +4,10 @@ A console-based Library Management System built in Java to practice OOP, Collect
 
 ## Features
 - [X] Book class
-- [ ] Add a book
-- [ ] Displays all books
-- [ ] Search a book by title
-- [ ] Delete a book
+- [X] Add a book
+- [X] Displays all books
+- [X] Search a book by title
+- [X] Delete a book
 - [ ] Add a member
 - [ ] Issued a book
 - [ ] Return a book
